@@ -35,7 +35,7 @@ input {
 }
 .row.header {
   padding: 1.5em 2.5em;
-  padding-top: 150px;
+  /* padding-top: 150px; */
   border-bottom: 1px solid var(--grey);
   background: url(https://images2.imgbox.com/a5/2e/m3lRbCCA_o.jpg) left -80px;
   background-size: cover;
@@ -53,6 +53,7 @@ input {
   display: flex;
   align-items: center;
   justify-content: center;
+
   flex-direction: column;
 }
 .heading {
@@ -63,6 +64,7 @@ input {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-wrap: wrap;
 }
 form {
   width: 100%;
@@ -163,4 +165,19 @@ form .form-group {
   font-size: 13px;
   font-weight: 300;
   color: #999999;
+}
+
+@media only screen and (max-width: 768px) {
+  .contact .container {
+    padding: 10px 20px;
+  }
+  form .row {
+    margin-top: 50px;
+    padding: 0px;
+  }
+  form .form-group {
+    margin: 0px;
+    padding: 0px;
+    margin-bottom: 30px;
+  }
 }
