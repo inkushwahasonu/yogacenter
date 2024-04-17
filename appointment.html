@@ -4,13 +4,34 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="appointment.css" />
+    <link rel="stylesheet" href="assets/css/header.css" />
+    <link rel="stylesheet" href="assets/css/footer.css" />
+    <link rel="stylesheet" href="assets/css/appointment.css" />
   </head>
   <body>
+    <nav class="nav">
+      <div class="nav__logo">Yoga Center</div>
+      <a class="nav__hamburger">
+        <span class="nav__hamburger__line"></span>
+        <span class="nav__hamburger__line"></span>
+        <span class="nav__hamburger__line"></span>
+      </a>
+      <div class="nav__menu">
+        <ul>
+          <li class="nav__menu__link"><a href="home.html">Home</a></li>
+          <li class="nav__menu__link"><a href="about.html">About</a></li>
+          <li class="nav__menu__link"><a href="contact.html">Contact</a></li>
+          <li class="nav__menu__link">
+            <a href="appointment.html">Book Appointment</a>
+          </li>
+          <li class="nav__menu__link"><a href="blog.html">Blog</a></li>
+        </ul>
+      </div>
+    </nav>
     <div class="contact_container">
       <div class="row header">
-        <h1>BOOK APPOINTMENT &nbsp;</h1>
-        <h3>Fill out the form below to learn more!</h3>
+        <h1>APPOINTMENT &nbsp;</h1>
+        <!-- <h3>Fill out the form below to learn more!</h3> -->
       </div>
       <div class="row body">
         <form action="#">
@@ -55,5 +76,49 @@
         </form>
       </div>
     </div>
+    <div class="footer_section">
+      <footer class="footer">
+        <div class="footer_container">
+          <div class="row">
+            <div class="footer-col">
+              <div class="footer_logo">YOGA CENTER</div>
+              <div class="footer_quote">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Architecto ducimus quam reiciendis deleniti commodi qui
+                accusamus quos ab quibusdam adipisci.
+              </div>
+            </div>
+            <div class="footer-col">
+              <h4>get help</h4>
+              <ul style="padding-left: 0px !important">
+                <li><a href="#">FAQ</a></li>
+                <li><a href="#">shipping</a></li>
+                <li><a href="#">returns</a></li>
+                <li><a href="#">order status</a></li>
+                <li><a href="#">payment options</a></li>
+              </ul>
+            </div>
+            <div class="footer-col">
+              <h4>online shop</h4>
+              <ul>
+                <li><a href="#">watch</a></li>
+                <li><a href="#">bag</a></li>
+                <li><a href="#">shoes</a></li>
+                <li><a href="#">dress</a></li>
+              </ul>
+            </div>
+            <div class="footer-col">
+              <h4>follow us</h4>
+              <div class="social-links">
+                <a href="#" title="facebook"></a>
+                <a href="#" title="insta"></a>
+                <a href="#" title="twitter"></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <script src="assets/js/header.js"></script>
   </body>
 </html>
