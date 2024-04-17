@@ -10,7 +10,7 @@ body {
   max-width: 1170px;
   margin: auto;
 }
-.footer_section .footer_row {
+.footer_section .row {
   display: flex;
   flex-wrap: wrap;
 }
@@ -26,7 +26,7 @@ body {
   padding: 0 15px;
 }
 .footer_section .footer-col .footer_logo {
-  color: #fff !important;
+  color: #fff;
 }
 .footer_section .footer-col .footer_quote {
   color: #bbbbbb;
@@ -100,14 +100,3 @@ body {
 }
 
 /* footer end */
-
-/* @media (width < 900px) {
-  .footer__container {
-    grid-template-columns: 1fr;
-    text-align: center;
-  }
-
-  .footer__socials {
-    justify-content: center;
-  }
-} */
